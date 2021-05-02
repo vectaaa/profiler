@@ -126,7 +126,7 @@ class Home extends StatelessWidget {
         ),
         Padding(
           padding: EdgeInsets.only(top: 8.0, bottom: 12.0),
-          child: Text('I enjoy learning and studying on a regular basis. \nIm an emerging Flutter developer and an Entry Level Native Android Developer.',
+          child: Text('I enjoy learning and studying on a regular basis. \nI\'m an emerging Flutter developer and an Entry Level Native Android Developer.',
             textAlign: TextAlign.center,
             style: TextStyle(
                 fontSize: 10.0,
@@ -134,7 +134,27 @@ class Home extends StatelessWidget {
             ),),
         ),
 
-        Divider()
+        Divider(),
+        Padding(
+          padding: EdgeInsets.only(top: 19.0),
+          child: Text('Qualification',
+            style: TextStyle(
+                color: Colors.lightBlue,
+                fontSize: 14.0,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.0
+            ),),
+        ),
+        Padding(
+          padding: EdgeInsets.only(top: 8.0, bottom: 12.0),
+          child: Text('B.Eng in Chemical Engineering \n I.T Intern at Jumia \n Flutter Intern at ZuriXIngreesive4Good ',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 12.0,
+                letterSpacing: 1.0
+            ),),
+        ),
+
 
 
     ]));
