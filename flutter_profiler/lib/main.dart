@@ -30,21 +30,47 @@ class Home extends StatelessWidget {
         ),
          Padding(
           padding: EdgeInsets.only(top: 10.0),
-          child: Text('Onuchukwu Victor Ikechukwu',
+          child: Text('ONUCHUKWU VICTOR IKECHUKWU',
           style: TextStyle(
-            fontSize: 20.0,
+            fontSize: 18.0,
             fontWeight: FontWeight.bold,
             letterSpacing: 1.0
           ),),
         ),
-         SizedBox(height: 30,),
+         SizedBox(height: 5,),
+        Padding(
+          padding: EdgeInsets.only(top: 1.0),
+          child: Text('@Vecta16    |     victoronuchukwu.com',
+            style: TextStyle(
+                color: Colors.black54,
+                fontSize: 12.0,
+                letterSpacing: 1.0
+
+            ),
+          ),
+        ),
+        Padding(
+          padding: EdgeInsets.only(top: 6.0),
+          child: Text('NIGERIA',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 13.0,
+                letterSpacing: 1.0
+            ),),
+        ),
+        Divider(
+        ),
+
+        SizedBox(height: 7,),
          Row(
           children: <Widget>[
 
             Expanded(child: Column(
               children: <Widget>[
-                Icon(Icons.email),
-                Text('victor'),
+                Icon(Icons.email,
+                    color: Colors.lightBlue),
+                Text('Email',
+                  style: TextStyle(color: Colors.lightBlue),),
               ],
             )
             ),
@@ -52,8 +78,11 @@ class Home extends StatelessWidget {
             Column(
               children: <Widget>[
 
-                  Icon(Icons.location_city),
-                  Text('victor'),
+                  Icon(Icons.location_city,
+                  color: Colors.black45),
+                  Text('Company',
+                    style: TextStyle(color: Colors.black45),
+                  ),
                 ]
               )
             ),
@@ -62,14 +91,50 @@ class Home extends StatelessWidget {
 
           Expanded(child: Column(
               children: <Widget>[
-                Icon(Icons.phone),
-                Text('mail.com'),
-              ],
+                Icon(Icons.phone,
+                color: Colors.black45,),
+                Text('Contact',
+                style: TextStyle(color: Colors.black45),
+                )],
             )
           ),
+
+            Expanded(child: Column(
+              children: <Widget>[
+                Icon(Icons.link,  color: Colors.black45,),
+                Text('Links',
+                  style: TextStyle(color: Colors.black45),
+                )],
+            )
+            ),
           ],
          ),
 
+
+
+        Divider(
+        ),
+        Padding(
+          padding: EdgeInsets.only(top: 19.0),
+          child: Text('FLUTTER DEVELOPER',
+            style: TextStyle(
+                color: Colors.lightBlue,
+                fontSize: 14.0,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.0
+            ),),
+        ),
+        Padding(
+          padding: EdgeInsets.only(top: 8.0, bottom: 12.0),
+          child: Text('I enjoy learning and studying on a regular basis. \nIm an emerging Flutter developer and an Entry Level Native Android Developer.',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 10.0,
+                letterSpacing: 1.0
+            ),),
+        ),
+
+        Divider()
 
 
     ]));
